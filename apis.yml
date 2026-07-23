@@ -1,8 +1,30 @@
 aid: advanced-analogic-tech
-name: Advanced Analogic Tech.
-description: Advanced Analogic Tech. is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/advanced-analogic-tech.png
+name: Advanced Analogic Technologies (AnalogicTech)
+description: >-
+  Advanced Analogic Technologies Incorporated (AnalogicTech, formerly NASDAQ: AATI) was a
+  fabless semiconductor company founded in 1997 and headquartered in Santa Clara, California,
+  with design centers in Santa Clara and Shanghai. The company designed total power-management
+  solutions built on proprietary analog and mixed-signal integrated circuits and discrete power
+  MOSFETs, shipping a portfolio of more than 500 power-management application-specific standard
+  products (ASSPs) and general-purpose analog ICs across four application areas: display and
+  lighting, voltage regulation and DC/DC conversion, interface and power management, and battery
+  management, primarily for mobile and portable consumer electronics. Advanced Analogic
+  Technologies was acquired by Skyworks Solutions, Inc. in January 2011 and no longer operates as
+  an independent company; it is a hardware semiconductor manufacturer with no public web API,
+  developer platform, or API artifacts. This profile is retained in the API Evangelist network as
+  a company record rather than an active API provider.
 url: https://raw.githubusercontent.com/api-evangelist/advanced-analogic-tech/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +32,31 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: skyworks-solutions
+x-acquired-year: 2011
+x-industry: semiconductors
+x-has-public-api: false
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- Power Management
+- Integrated Circuits
+- Analog
+- Mixed-Signal
+- Electronics
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
