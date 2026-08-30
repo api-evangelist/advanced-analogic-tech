@@ -71,3 +71,9 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+common:
+- type: ParentCompany
+  url: https://apis.io/providers/skyworks-solutions/
+  name: Skyworks Solutions
+  x-relationship: acquired
+  x-evidence: "Advanced Analogic Technologies was acquired by Skyworks Solutions, Inc."
